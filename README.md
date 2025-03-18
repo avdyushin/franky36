@@ -77,6 +77,11 @@ QMK with VIA support. See [firmware](./firmware) folder for firmware binary file
 Source code is available in the [QMK firmware repository](https://github.com/avdyushin/qmk_firmware/tree/franky36).
 
 Keymap with VIA support is available in the [QMK userspace repository](https://github.com/avdyushin/qmk_userspace/tree/franky36).
+
+![via](./docs/assets/via.png)
+
+> NOTE: To make VIA export work in Brave browser enable File System Access API: brave://flags/#file-system-access-api
+
 ## Links
 
 - [QMK](https://qmk.fm/)
