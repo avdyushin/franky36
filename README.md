@@ -5,6 +5,8 @@ It uses RP2040-Zero controller and QMK firmware.
 
 ![franky36](./docs/assets/franky36.jpg)
 
+GMK 9009 clone PBT keycaps are used in the photo.
+
 ## Features
 
 - Split with single controller
@@ -37,6 +39,8 @@ The default layout is similar to the Planck layout.
 ## Case and Plate
 
 Designed in OpenSCAD and 3D printed. See [case](./case) for STL files and OpenSCAD source.
+
+![case](./docs/assets/design.png)
 
 ## Assembly
 
