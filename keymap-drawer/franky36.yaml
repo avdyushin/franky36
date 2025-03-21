@@ -1,0 +1,52 @@
+layout:
+  qmk_keyboard: corne_rotated
+  layout_name: LAYOUT_split_3x5_3
+layers:
+  BASE:
+    - [Q, W, E, R, T, Y, U, I, O, P]
+    - [{h: NAV, t: A}, S, D, F, G, H, J, K, L, {h: $$mdi:apple-keyboard-option$$, t: ";:"}]
+    - [{h: $$mdi:apple-keyboard-shift$$, t: Z}, X, C, V, B, N, M, ",<", ".>", {h: $$mdi:apple-keyboard-shift$$, t: "/?"}]
+    - {h: $$mdi:apple-keyboard-control$$}
+    - {h: $$mdi:apple-keyboard-command$$, t: $$mdi:keyboard-tab$$}
+    - {h: LOWER, t: $$mdi:keyboard-space$$}
+    - {h: RAISE, t: $$mdi:backspace-outline$$}
+    - {h: $$mdi:apple-keyboard-command$$, t: $$mdi:keyboard-return$$}
+    - {h: Hyper}
+  LOWER:
+    - ["1!", "2@", "3#", "4$", "5%", "6^", "7&", "8*", "9(", "0)"]
+    - ["`~", {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Left, Down, Up, Right, "'\""]
+    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, "-_", "=+", "[{", "]}", "\\|"]
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, h: NAV}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  RAISE:
+    - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
+    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}]
+    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}]
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, h: NAV}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  NAV:
+    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Home, {t: ▽, type: trans}, {t: ▽, type: trans}, End, {t: ▽, type: trans}]
+    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Left, Down, Up, Right, {t: ▽, type: trans}]
+    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, PgUp, {t: ▽, type: trans}, {t: ▽, type: trans}, PgDown, {t: ▽, type: trans}]
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+  - {p: [1, 2], k: $$mdi:keyboard-tab$$, l: ["BASE"]}
+  - {p: [7, 8], k: $$mdi:backspace-outline$$, l: ["BASE"]}
+  - {p: [11, 12], k: $$mdi:keyboard-esc$$, l: ["BASE"]}
+  - {p: [17, 18], k: $$mdi:keyboard-return$$, l: ["BASE"]}
+  - {p: [21, 22], k: "Copy", l: ["BASE"]}
+  - {p: [22, 23], k: "Paste", l: ["BASE"]}
+  - {p: [20, 29], k: "Caps Word", l: ["BASE"], w: 64, a: bottom, o: 0.1}
