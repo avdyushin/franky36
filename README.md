@@ -90,6 +90,8 @@ Keymap with VIA support is available in the [QMK userspace repository](https://g
 
 ![via](./docs/assets/via.png)
 
+VIA keyboard definition file is available in the [VIA repository](https://github.com/avdyushin/keyboards/tree/franky36/v3/handwired/franky36)
+
 > NOTE: To make VIA export work in Brave browser enable File System Access API: brave://flags/#file-system-access-api
 
 ## Links
