@@ -19,7 +19,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, h: NAV}
+    - {t: ▽}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   RAISE:
@@ -28,18 +28,18 @@ layers:
     - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}]
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, h: NAV}
+    - {t: ▽}
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   NAV:
     - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Home, {t: ▽, type: trans}, {t: ▽, type: trans}, End, {t: ▽, type: trans}]
-    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Left, Down, Up, Right, {t: ▽, type: trans}]
+    - [{type: held}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Left, Down, Up, Right, {t: ▽, type: trans}]
     - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, PgUp, {t: ▽, type: trans}, {t: ▽, type: trans}, PgDown, {t: ▽, type: trans}]
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
 combos:
