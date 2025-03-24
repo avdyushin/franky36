@@ -78,9 +78,15 @@ Display: `GP0` (SDA), `GP1` (SCL), `GND`, `3v3`
 
 QMK with VIA support. See [firmware](./firmware) folder for firmware binary files.
 
-Source code is available in the [QMK firmware repository](https://github.com/avdyushin/qmk_firmware/tree/franky36).
+Source code is available in the [QMK firmware repository](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/franky36).
 
-Keymap with VIA support is available in the [QMK userspace repository](https://github.com/avdyushin/qmk_userspace/tree/franky36).
+### QMK Configurator
+
+You can use the [QMK Configurator](https://config.qmk.fm/#/handwired/franky36/LAYOUT) to create your custom keymap.
+
+### VIA
+
+Keymap with VIA support is available in the [QMK userspace repository](https://github.com/avdyushin/qmk_userspace_via/tree/franky36).
 
 ![via](./docs/assets/via.png)
 
