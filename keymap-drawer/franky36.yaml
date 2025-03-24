@@ -1,5 +1,5 @@
 layout:
-  qmk_keyboard: corne_rotated
+  qmk_keyboard: handwired/franky36
   layout_name: LAYOUT_split_3x5_3
 layers:
   BASE:
@@ -14,7 +14,7 @@ layers:
     - {h: Hyper}
   LOWER:
     - ["1!", "2@", "3#", "4$", "5%", "6^", "7&", "8*", "9(", "0)"]
-    - ["`~", {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, Left, Down, Up, Right, "'\""]
+    - ["`~", "~", "|", "(", ")", "_", "+", "{", "}", "'\""]
     - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, "-_", "=+", "[{", "]}", "\\|"]
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
