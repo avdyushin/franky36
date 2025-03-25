@@ -6,16 +6,16 @@ layers:
     - [Q, W, E, R, T, Y, U, I, O, P]
     - [{h: NAV, t: A}, S, D, F, G, H, J, K, L, {h: $$mdi:apple-keyboard-option$$, t: ";:"}]
     - [{h: $$mdi:apple-keyboard-shift$$, t: Z}, X, C, V, B, N, M, ",<", ".>", {h: $$mdi:apple-keyboard-shift$$, t: "/?"}]
-    - {h: $$mdi:apple-keyboard-control$$}
+    - {t: OSM Ctrl}
     - {h: $$mdi:apple-keyboard-command$$, t: $$mdi:keyboard-tab$$}
     - {h: LOWER, t: $$mdi:keyboard-space$$}
     - {h: RAISE, t: $$mdi:backspace-outline$$}
     - {h: $$mdi:apple-keyboard-command$$, t: $$mdi:keyboard-return$$}
-    - {h: Hyper}
+    - {t: OSM MEH}
   LOWER:
     - ["1!", "2@", "3#", "4$", "5%", "6^", "7&", "8*", "9(", "0)"]
     - ["`~", "~", "|", "(", ")", "_", "+", "{", "}", "'\""]
-    - [{t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, "-_", "=+", "[{", "]}", "\\|"]
+    - [{t: $$mdi:apple-keyboard-shift$$}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, {t: ▽, type: trans}, "-_", "=+", "[{", "]}", "\\|"]
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
